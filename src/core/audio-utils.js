@@ -86,8 +86,8 @@ export function formatFileSize(bytes) {
   let idx = 0;
   let size = bytes;
 
-  while (size >= 1024 && idx < units.length - 1) {
-    size /= 1024;
+  while (size >= 1000 && idx < units.length - 1) {
+    size /= 1000;
     idx++;
   }
 

@@ -29,7 +29,7 @@ function bitrateForTargetSize(targetBytes, durationSec) {
 function parseTargetBytes(value, unit) {
   const num = parseFloat(value);
   if (isNaN(num) || num <= 0) return 0;
-  return unit === 'MB' ? num * 1024 * 1024 : num * 1024;
+  return unit === 'MB' ? num * 1000 * 1000 : num * 1000;
 }
 
 /* ------------------------------------------------------------------ */
