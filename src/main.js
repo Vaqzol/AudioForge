@@ -1,5 +1,6 @@
 /**
  * AudioForge — Main Entry Point (Unified Single-Upload Workflow)
+ * Trigger Vercel Build Deploy
  *
  * Coordinates the single upload landing page, persistent audio preview,
  * tab switcher, settings panels, progress updates, and outputs.
